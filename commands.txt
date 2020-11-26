@@ -1,0 +1,58 @@
+To Check Git version
+git --version
+
+
+To Clone a repository
+git clone <https_link>
+
+
+To configure your user name:
+git config user.name "your_name"
+
+
+To configure your user email:
+git config user.email "your_email@here"
+
+
+To check list of configurations
+git config --list
+
+
+To add upstream:
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+
+
+To check your remote configurations:
+git remote -v
+
+
+To create a new branch & push branch to origin:
+git checkout -b <branch_name> origin/<main_branch>
+git push -u origin <branch_name>
+
+
+To check status, add, commit, and push changes:
+git status
+git add .
+git commit -m "your_message"
+git push -u orign <branch_name>
+
+
+To update your fork:
+git checkout <main_branch_name>
+git fetch upstream
+git merge upstream/<main_branch_name>
+git push -u origin <origin_main_branch_name>:<local_main_branch_name> -f
+
+
+To update your branch:
+git checkout <branch_name>
+git fetch origin
+git rebase origin/<main_branch>
+git rebase --continue
+git push -u origin <branch_name> -f
+
+
+To delete a branch:
+git branch -d <branchname>
+git push origin --delete <branchname>
