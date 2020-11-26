@@ -40,11 +40,11 @@ If you do not have git installed, [check this documentation](https://git-scm.com
 
 1. **Navigate to the github repository** that you want to contribute to, and simply **click Fork** (Labelled 1 in the attached image). In this tutorial we are going to clone the `basic-ecommerce` repository.
 
-![Screen Shot 2020-11-26 at 08.39.22](assets/Screen Shot 2020-11-26 at 08.39.22-6351475.png)
+![Screen Shot 2020-11-26 at 08.39.22](assets/image1.png)
 
 2. You will know that you have successfully forked the repository when the **repository owner has changed** into your name (Labelled 2 in the previous image). Notice the fork icon beside your name.
 
-![Screen Shot 2020-11-26 at 08.46.46](assets/Screen Shot 2020-11-26 at 08.46.46.png)
+![Screen Shot 2020-11-26 at 08.46.46](assets/image2.png)
 
 3. The **original repository** (the one you forked) is called the `upstream`, while your **forked repository** (the one with your name on it) is called the `origin`.
 
@@ -54,7 +54,7 @@ If you do not have git installed, [check this documentation](https://git-scm.com
 
 1. Locate the **"(download) Code"** button (Labelled 1 in the image), click it and **click the clickboard** icon (Labelled 2 in the image) to copy the repository link.
 
-![Screen Shot 2020-11-26 at 08.50.37](assets/Screen Shot 2020-11-26 at 08.50.37.png)
+![Screen Shot 2020-11-26 at 08.50.37](assets/image3.png)
 
 2. In your terminal, cd into the folder where you want to store your repository and type `git clone ` and **paste the link that you copied**. `cd` into your newly cloned repository, and type `ls` to verify that you have successfully cloned the `origin`.
 
@@ -212,7 +212,7 @@ $ git push -u origin <branch_name> -f
 
 1. You can create pull requests by **navigating in the branch that you were developing** (in our case, `greetings_list` Labelled 2 in the image) and clicking the "Compare & pull request" button (Labelled 1 in the image).
 
-![Screen Shot 2020-11-26 at 10.54.47](assets/Screen Shot 2020-11-26 at 10.54.47.png)
+![Screen Shot 2020-11-26 at 10.54.47](assets/image4.png)
 
 2. Edit the pul request title and the description based on the specifications of the project you are contributing to, and click **"Create pull request"**.
    ![image-20201126105846976](assets/image-20201126105846976.png)
