@@ -97,7 +97,7 @@ you can add the `--global` to configure your settings globally.
 
    the link with `https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git` can be copied from the **HTTPS link on the "Clone button" of the original repository or the `upstream`**
 
-   ![Screen Shot 2020-11-26 at 09.19.59](assets/Screen Shot 2020-11-26 at 09.19.59.png)
+   ![Screen Shot 2020-11-26 at 09.19.59](assets/image5.png)
 
 3. **Check your remote configurations** by typing:
 
