@@ -6,13 +6,13 @@ This tutorial is an **ultimate step by step walkthrough** aimed to teach people 
 
 Here is the workflow and the general idea:
 
-1. **Navigate to the project** that you want to contribute to, and **Fork it**. The main repository that you forked is called `upsteam`. Your fork is called `origin`.
+1. **Navigate to the project** that you want to contribute to, and **Fork it**. The main repository that you forked is called `upstream`. Your fork is called `origin`.
 2. **Clone the project** that you just Forked **to your local machine**. The repository that is sitting on your local machine is called `local`.
 3. **Configure the commit settings** on your local machine, including the `upstream` link.
 4. **Create a new branch on your local machine**, and push this branch to your `origin`.
 5. **Add your code changes/contributions to this branch**, and push commits to your `origin` as you normally would.
 6. When you want to submit your changes, **update your local repository first**. This is done by pulling the changes from the `upstream` into your `local`. 
-7. **Update your branch that you made some changes** from your updated local repository (called `rebase`), and push this this updates, as well as your contributions to your `origin`**.**
+7. **Update your branch that you made some changes on** from your updated local repository (called `rebase`), and push these updates, as well as your contributions to your `origin`**.**
 8. **Create a pull request** from the branch containing your contributions in your `origin` to the `dev` (or `main`) branch of the `upstream`.
 
 9. When your pull request is not yet merged, **always update your pull request to avoid merging conflicts.** This is done from step 6 until this step.
@@ -214,7 +214,7 @@ $ git push -u origin <branch_name> -f
 
 ![Screen Shot 2020-11-26 at 10.54.47](assets/image4.png)
 
-2. Edit the pul request title and the description based on the specifications of the project you are contributing to, and click **"Create pull request"**.
+2. Edit the pull request title and the description based on the specifications of the project you are contributing to, and click **"Create pull request"**.
    ![image-20201126105846976](assets/image-20201126105846976.png)
 
 **Congratulations!** You just created your pull request. Pull request reviewers will review your code and add comments for you to change.
