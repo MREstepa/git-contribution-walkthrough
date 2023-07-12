@@ -2,10 +2,9 @@ Hello World!
 
 RB-test
 
-<<<<<<< HEAD
 feat_logout
-=======
 **Insert Login code here**
->>>>>>> 2b5326b (added login code)
 
 asdkashdeea
+
+Added my new text
